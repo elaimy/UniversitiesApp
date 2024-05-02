@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411D5B8F2BE3748B006D5FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5B8E2BE3748B006D5FAD /* AppDelegate.swift */; };
+		411D5B912BE3748B006D5FAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5B902BE3748B006D5FAD /* SceneDelegate.swift */; };
+		411D5B932BE3748B006D5FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5B922BE3748B006D5FAD /* ViewController.swift */; };
+		411D5B962BE3748B006D5FAD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 411D5B952BE3748B006D5FAD /* Base */; };
+		411D5B982BE3748E006D5FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411D5B972BE3748E006D5FAD /* Assets.xcassets */; };
+		411D5B9B2BE3748E006D5FAD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 411D5B9A2BE3748E006D5FAD /* Base */; };
+		411D5BA42BE3752C006D5FAD /* UniversityResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5BA32BE3752C006D5FAD /* UniversityResponse.swift */; };
+		411D5BA72BE37679006D5FAD /* UniversitiesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5BA62BE37679006D5FAD /* UniversitiesProtocol.swift */; };
+		411D5BAB2BE3770A006D5FAD /* UniversitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 411D5BAA2BE3770A006D5FAD /* UniversitiesViewController.xib */; };
+		411D5BAC2BE3770A006D5FAD /* UniversitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5BA92BE3770A006D5FAD /* UniversitiesViewController.swift */; };
+		411D5BAF2BE37791006D5FAD /* UniversitiesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5BAE2BE37791006D5FAD /* UniversitiesInteractor.swift */; };
+		411D5BB22BE37813006D5FAD /* UniversitiesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5BB12BE37813006D5FAD /* UniversitiesPresenter.swift */; };
+		411D5BB52BE3786D006D5FAD /* UniversitiesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5BB42BE3786D006D5FAD /* UniversitiesRouter.swift */; };
+		411D5BBB2BE38407006D5FAD /* UniversityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 411D5BBA2BE38407006D5FAD /* UniversityCell.xib */; };
+		411D5BBC2BE38407006D5FAD /* UniversityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5BB92BE38407006D5FAD /* UniversityCell.swift */; };
+		411D5BBE2BE3A0DC006D5FAD /* UniversityDetailsViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5BBD2BE3A0DC006D5FAD /* UniversityDetailsViewProtocol.swift */; };
+		411D5BC12BE3A14B006D5FAD /* UniversityDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 411D5BC02BE3A14B006D5FAD /* UniversityDetailsViewController.xib */; };
+		411D5BC22BE3A14B006D5FAD /* UniversityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5BBF2BE3A14B006D5FAD /* UniversityDetailsViewController.swift */; };
+		411D5BC42BE3A175006D5FAD /* UniversityDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5BC32BE3A175006D5FAD /* UniversityDetailsPresenter.swift */; };
+		411D5BC62BE3A184006D5FAD /* UniversityDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D5BC52BE3A184006D5FAD /* UniversityDetailsRouter.swift */; };
+		C14307678D5801619514D49A /* Pods_UniversitiesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3326BB4AAB20DAE1BA8FFA1C /* Pods_UniversitiesApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3326BB4AAB20DAE1BA8FFA1C /* Pods_UniversitiesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversitiesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9378FD8C1A567288434C99 /* Pods-UniversitiesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversitiesApp.release.xcconfig"; path = "Target Support Files/Pods-UniversitiesApp/Pods-UniversitiesApp.release.xcconfig"; sourceTree = "<group>"; };
+		411D5B8B2BE3748B006D5FAD /* UniversitiesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversitiesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		411D5B8E2BE3748B006D5FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		411D5B902BE3748B006D5FAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		411D5B922BE3748B006D5FAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		411D5B952BE3748B006D5FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		411D5B972BE3748E006D5FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		411D5B9A2BE3748E006D5FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		411D5B9C2BE3748E006D5FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411D5BA32BE3752C006D5FAD /* UniversityResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityResponse.swift; sourceTree = "<group>"; };
+		411D5BA62BE37679006D5FAD /* UniversitiesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesProtocol.swift; sourceTree = "<group>"; };
+		411D5BA92BE3770A006D5FAD /* UniversitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesViewController.swift; sourceTree = "<group>"; };
+		411D5BAA2BE3770A006D5FAD /* UniversitiesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversitiesViewController.xib; sourceTree = "<group>"; };
+		411D5BAE2BE37791006D5FAD /* UniversitiesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesInteractor.swift; sourceTree = "<group>"; };
+		411D5BB12BE37813006D5FAD /* UniversitiesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesPresenter.swift; sourceTree = "<group>"; };
+		411D5BB42BE3786D006D5FAD /* UniversitiesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesRouter.swift; sourceTree = "<group>"; };
+		411D5BB92BE38407006D5FAD /* UniversityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityCell.swift; sourceTree = "<group>"; };
+		411D5BBA2BE38407006D5FAD /* UniversityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityCell.xib; sourceTree = "<group>"; };
+		411D5BBD2BE3A0DC006D5FAD /* UniversityDetailsViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsViewProtocol.swift; sourceTree = "<group>"; };
+		411D5BBF2BE3A14B006D5FAD /* UniversityDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsViewController.swift; sourceTree = "<group>"; };
+		411D5BC02BE3A14B006D5FAD /* UniversityDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityDetailsViewController.xib; sourceTree = "<group>"; };
+		411D5BC32BE3A175006D5FAD /* UniversityDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsPresenter.swift; sourceTree = "<group>"; };
+		411D5BC52BE3A184006D5FAD /* UniversityDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsRouter.swift; sourceTree = "<group>"; };
+		7BE833D5153BEDB5DCECCC35 /* Pods-UniversitiesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversitiesApp.debug.xcconfig"; path = "Target Support Files/Pods-UniversitiesApp/Pods-UniversitiesApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411D5B882BE3748B006D5FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14307678D5801619514D49A /* Pods_UniversitiesApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA12A4C039A0363EE9A1236 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BE833D5153BEDB5DCECCC35 /* Pods-UniversitiesApp.debug.xcconfig */,
+				3C9378FD8C1A567288434C99 /* Pods-UniversitiesApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		411D5B822BE3748B006D5FAD = {
+			isa = PBXGroup;
+			children = (
+				411D5B8D2BE3748B006D5FAD /* UniversitiesApp */,
+				411D5B8C2BE3748B006D5FAD /* Products */,
+				0AA12A4C039A0363EE9A1236 /* Pods */,
+				FFD79415F458ABBD1E9763F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		411D5B8C2BE3748B006D5FAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				411D5B8B2BE3748B006D5FAD /* UniversitiesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		411D5B8D2BE3748B006D5FAD /* UniversitiesApp */ = {
+			isa = PBXGroup;
+			children = (
+				411D5B8E2BE3748B006D5FAD /* AppDelegate.swift */,
+				411D5B902BE3748B006D5FAD /* SceneDelegate.swift */,
+				411D5B922BE3748B006D5FAD /* ViewController.swift */,
+				411D5BB82BE383EA006D5FAD /* Cells */,
+				411D5BB32BE37860006D5FAD /* Router */,
+				411D5BB02BE377F1006D5FAD /* Presenter */,
+				411D5BAD2BE3777C006D5FAD /* Interactors */,
+				411D5BA82BE376EB006D5FAD /* Views */,
+				411D5BA52BE37618006D5FAD /* Protocols */,
+				411D5BA22BE37524006D5FAD /* Models */,
+				411D5B942BE3748B006D5FAD /* Main.storyboard */,
+				411D5B972BE3748E006D5FAD /* Assets.xcassets */,
+				411D5B992BE3748E006D5FAD /* LaunchScreen.storyboard */,
+				411D5B9C2BE3748E006D5FAD /* Info.plist */,
+			);
+			path = UniversitiesApp;
+			sourceTree = "<group>";
+		};
+		411D5BA22BE37524006D5FAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				411D5BA32BE3752C006D5FAD /* UniversityResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		411D5BA52BE37618006D5FAD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				411D5BA62BE37679006D5FAD /* UniversitiesProtocol.swift */,
+				411D5BBD2BE3A0DC006D5FAD /* UniversityDetailsViewProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		411D5BA82BE376EB006D5FAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				411D5BA92BE3770A006D5FAD /* UniversitiesViewController.swift */,
+				411D5BAA2BE3770A006D5FAD /* UniversitiesViewController.xib */,
+				411D5BBF2BE3A14B006D5FAD /* UniversityDetailsViewController.swift */,
+				411D5BC02BE3A14B006D5FAD /* UniversityDetailsViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		411D5BAD2BE3777C006D5FAD /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				411D5BAE2BE37791006D5FAD /* UniversitiesInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		411D5BB02BE377F1006D5FAD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				411D5BB12BE37813006D5FAD /* UniversitiesPresenter.swift */,
+				411D5BC32BE3A175006D5FAD /* UniversityDetailsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		411D5BB32BE37860006D5FAD /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				411D5BB42BE3786D006D5FAD /* UniversitiesRouter.swift */,
+				411D5BC52BE3A184006D5FAD /* UniversityDetailsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		411D5BB82BE383EA006D5FAD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				411D5BB92BE38407006D5FAD /* UniversityCell.swift */,
+				411D5BBA2BE38407006D5FAD /* UniversityCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FFD79415F458ABBD1E9763F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3326BB4AAB20DAE1BA8FFA1C /* Pods_UniversitiesApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		411D5B8A2BE3748B006D5FAD /* UniversitiesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411D5B9F2BE3748E006D5FAD /* Build configuration list for PBXNativeTarget "UniversitiesApp" */;
+			buildPhases = (
+				9651503E61C3728657BCE747 /* [CP] Check Pods Manifest.lock */,
+				411D5B872BE3748B006D5FAD /* Sources */,
+				411D5B882BE3748B006D5FAD /* Frameworks */,
+				411D5B892BE3748B006D5FAD /* Resources */,
+				52CC04CF853AEDF89921247A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversitiesApp;
+			productName = UniversitiesApp;
+			productReference = 411D5B8B2BE3748B006D5FAD /* UniversitiesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		411D5B832BE3748B006D5FAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					411D5B8A2BE3748B006D5FAD = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 411D5B862BE3748B006D5FAD /* Build configuration list for PBXProject "UniversitiesApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 411D5B822BE3748B006D5FAD;
+			productRefGroup = 411D5B8C2BE3748B006D5FAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				411D5B8A2BE3748B006D5FAD /* UniversitiesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		411D5B892BE3748B006D5FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411D5BAB2BE3770A006D5FAD /* UniversitiesViewController.xib in Resources */,
+				411D5BC12BE3A14B006D5FAD /* UniversityDetailsViewController.xib in Resources */,
+				411D5B982BE3748E006D5FAD /* Assets.xcassets in Resources */,
+				411D5BBB2BE38407006D5FAD /* UniversityCell.xib in Resources */,
+				411D5B9B2BE3748E006D5FAD /* Base in Resources */,
+				411D5B962BE3748B006D5FAD /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52CC04CF853AEDF89921247A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversitiesApp/Pods-UniversitiesApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversitiesApp/Pods-UniversitiesApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniversitiesApp/Pods-UniversitiesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9651503E61C3728657BCE747 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversitiesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		411D5B872BE3748B006D5FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411D5BB52BE3786D006D5FAD /* UniversitiesRouter.swift in Sources */,
+				411D5BB22BE37813006D5FAD /* UniversitiesPresenter.swift in Sources */,
+				411D5BA42BE3752C006D5FAD /* UniversityResponse.swift in Sources */,
+				411D5BC22BE3A14B006D5FAD /* UniversityDetailsViewController.swift in Sources */,
+				411D5B932BE3748B006D5FAD /* ViewController.swift in Sources */,
+				411D5BC62BE3A184006D5FAD /* UniversityDetailsRouter.swift in Sources */,
+				411D5BC42BE3A175006D5FAD /* UniversityDetailsPresenter.swift in Sources */,
+				411D5B8F2BE3748B006D5FAD /* AppDelegate.swift in Sources */,
+				411D5BA72BE37679006D5FAD /* UniversitiesProtocol.swift in Sources */,
+				411D5BAF2BE37791006D5FAD /* UniversitiesInteractor.swift in Sources */,
+				411D5BAC2BE3770A006D5FAD /* UniversitiesViewController.swift in Sources */,
+				411D5BBE2BE3A0DC006D5FAD /* UniversityDetailsViewProtocol.swift in Sources */,
+				411D5B912BE3748B006D5FAD /* SceneDelegate.swift in Sources */,
+				411D5BBC2BE38407006D5FAD /* UniversityCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		411D5B942BE3748B006D5FAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411D5B952BE3748B006D5FAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		411D5B992BE3748E006D5FAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411D5B9A2BE3748E006D5FAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		411D5B9D2BE3748E006D5FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		411D5B9E2BE3748E006D5FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		411D5BA02BE3748E006D5FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE833D5153BEDB5DCECCC35 /* Pods-UniversitiesApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ASLMU73HS;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniversitiesApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elaimy.UniversitiesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		411D5BA12BE3748E006D5FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9378FD8C1A567288434C99 /* Pods-UniversitiesApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ASLMU73HS;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniversitiesApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elaimy.UniversitiesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411D5B862BE3748B006D5FAD /* Build configuration list for PBXProject "UniversitiesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411D5B9D2BE3748E006D5FAD /* Debug */,
+				411D5B9E2BE3748E006D5FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411D5B9F2BE3748E006D5FAD /* Build configuration list for PBXNativeTarget "UniversitiesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411D5BA02BE3748E006D5FAD /* Debug */,
+				411D5BA12BE3748E006D5FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 411D5B832BE3748B006D5FAD /* Project object */;
+}
